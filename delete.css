@@ -6,24 +6,9 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(238, 224, 224);
     display: grid;
     place-items: center;
     height: 100vh;
 }
 
-.gone{
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.9s ease-in-out;
-}
-
-.gone:hover{
-     transform: scale(1.5);
-     cursor: pointer;
-     transition: 0.9s ease-in-out;
-}
